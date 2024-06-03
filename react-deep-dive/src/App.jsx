@@ -32,7 +32,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <>
       <Header />
       <main>
         <section id="core-concepts">
@@ -74,7 +74,7 @@ function App() {
           {tabContent}
         </section>
       </main>
-    </div>
+    </>
   );
 }
 
